@@ -25,8 +25,7 @@ function Activated()
         speedUnitText = "<Strings:TdGameUI.TdTimeTrial.SpeedUnitTextImperial>";
     }
 
-    // 20.24 (km/h or mph)
-    result = string(value);
+    result = string(int(value));
     result = result @= speedUnitText;
 }
 

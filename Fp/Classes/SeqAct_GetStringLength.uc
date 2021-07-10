@@ -1,11 +1,11 @@
 class SeqAct_GetStringLength extends SequenceAction;
 
-var string stringInput;
-var int stringLength;
+var() string input;
+var int length;
 
 function Activated() 
 {
-    stringLength = len(stringInput);
+    length = len(input);
 }
 
 defaultproperties 
@@ -14,6 +14,6 @@ defaultproperties
     ObjName = "Get String Length"
     ObjCategory = "Custom"
  	
-    VariableLinks(0)=(ExpectedType = class'SeqVar_String', LinkDesc = "String", PropertyName = stringInput)
-    VariableLinks(1)=(ExpectedType = class'SeqVar_Int', LinkDesc = "Result", bWriteable = TRUE, PropertyName = stringLength)
+    VariableLinks(0)=(ExpectedType = class'SeqVar_String', LinkDesc = "String", PropertyName = input)
+    VariableLinks(1)=(ExpectedType = class'SeqVar_Int', LinkDesc = "Result", bWriteable = TRUE, PropertyName = length)
 }

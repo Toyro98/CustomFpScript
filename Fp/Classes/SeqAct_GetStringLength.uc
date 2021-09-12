@@ -10,7 +10,7 @@ function Activated()
 
 defaultproperties 
 {
-    ObjColor = (R=0, G=0, B=0, A=255)
+    ObjColor = (R=0, G=0, B=0)
     ObjName = "Get String Length"
     ObjCategory = "Custom"
  	

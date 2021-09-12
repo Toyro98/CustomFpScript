@@ -15,5 +15,5 @@ defaultproperties
     ObjCategory = "Custom"
  	
     VariableLinks(0)=(ExpectedType = class'SeqVar_String', LinkDesc = "String", PropertyName = input)
-    VariableLinks(1)=(ExpectedType = class'SeqVar_Int', LinkDesc = "Result", bWriteable = TRUE, PropertyName = length)
+    VariableLinks(1)=(ExpectedType = class'SeqVar_Int', LinkDesc = "Length", bWriteable = TRUE, PropertyName = length)
 }

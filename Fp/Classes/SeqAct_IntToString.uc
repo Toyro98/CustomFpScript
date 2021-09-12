@@ -14,6 +14,6 @@ defaultproperties
     ObjName = "Int To String"
     ObjCategory = "Custom"
  	
-    VariableLinks(0)=(ExpectedType = class'SeqVar_Int', LinkDesc = "Value", PropertyName = value)
-    VariableLinks(1)=(ExpectedType = class'SeqVar_String', LinkDesc = "Result", bWriteable = TRUE, PropertyName = result)
+    VariableLinks(0)=(ExpectedType = class'SeqVar_Int', LinkDesc = "Int", PropertyName = value)
+    VariableLinks(1)=(ExpectedType = class'SeqVar_String', LinkDesc = "String", bWriteable = TRUE, PropertyName = result)
 }

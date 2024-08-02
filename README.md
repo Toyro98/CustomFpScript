@@ -5,7 +5,7 @@ Custom Fp.u script file for Mirror's Edge. Adding kismet logic that the game doe
 1. Download [Unreal Tournament 3: Black Edition](https://store.steampowered.com/app/13210/Unreal_Tournament_3_Black/) on Steam
 2. Download [ut3patch3.exe](https://docs.unrealengine.com/udk/Three/UT3ModHome.html) and apply the patch to where UT3 Black Edition is installed
 3. Go to UT3 Binaries folder and make a shortcut of UT3.exe with in the target, add `make` and then start it
-4. a) All that should've happened is to show the loading icon on the cursor. Then go to `C:\Program Files (x86)\Steam\steamapps\common\Unreal Tournament 3\UTGame\Config` and open `DefaultGame.ini`. At lines 43, 45, 91, 125, add `;` at the start
+4. a) All that should've happened is to show the loading icon on the cursor. Then go to `C:\Program Files (x86)\Steam\steamapps\common\Unreal Tournament 3\UTGame\Config` and open `DefaultEngine.ini`. At lines 43, 45, 91, 120, add `;` at the start
 
 ```ini
 ;+EditPackages=UT3Gold

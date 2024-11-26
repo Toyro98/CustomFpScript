@@ -1,11 +1,11 @@
 class SeqAct_StringToFloat extends SequenceAction;
 
-var() string input;
-var float result;
+var() string Input;
+var float Result;
 
 function Activated() 
 {
-    result = float(input);
+    Result = float(Input);
 }
 
 defaultproperties 
@@ -14,6 +14,6 @@ defaultproperties
     ObjName = "String To Float"
     ObjCategory = "Custom"
  	
-    VariableLinks(0)=(ExpectedType = class'SeqVar_String', LinkDesc = "String", PropertyName = input)
-    VariableLinks(1)=(ExpectedType = class'SeqVar_Float', LinkDesc = "Float", bWriteable = TRUE, PropertyName = result)
+    VariableLinks(0)=(ExpectedType = class'SeqVar_String', LinkDesc = "String", PropertyName = Input)
+    VariableLinks(1)=(ExpectedType = class'SeqVar_Float', LinkDesc = "Float", bWriteable = TRUE, PropertyName = Result)
 }

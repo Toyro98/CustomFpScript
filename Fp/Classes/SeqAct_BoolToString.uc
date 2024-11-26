@@ -1,11 +1,11 @@
 class SeqAct_BoolToString extends SequenceAction;
 
-var() bool value;
-var string result;
+var() bool Value;
+var string Result;
 
 function Activated() 
 {
-    result = string(value);
+    Result = string(Value);
 }
 
 defaultproperties 
@@ -14,6 +14,6 @@ defaultproperties
     ObjName = "Bool To String"
     ObjCategory = "Custom"
  	
-    VariableLinks(0)=(ExpectedType = class'SeqVar_Bool', LinkDesc = "Bool", PropertyName = value)
-    VariableLinks(1)=(ExpectedType = class'SeqVar_String', LinkDesc = "String", bWriteable = TRUE, PropertyName = result)
+    VariableLinks(0)=(ExpectedType = class'SeqVar_Bool', LinkDesc = "Bool", PropertyName = Value)
+    VariableLinks(1)=(ExpectedType = class'SeqVar_String', LinkDesc = "String", bWriteable = TRUE, PropertyName = Result)
 }

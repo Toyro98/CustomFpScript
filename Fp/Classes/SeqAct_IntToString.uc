@@ -1,11 +1,11 @@
 class SeqAct_IntToString extends SequenceAction;
 
-var() int value;
-var string result;
+var() int Value;
+var string Result;
 
 function Activated() 
 {
-    result = string(value);
+    Result = string(Value);
 }
 
 defaultproperties 
@@ -14,6 +14,6 @@ defaultproperties
     ObjName = "Int To String"
     ObjCategory = "Custom"
  	
-    VariableLinks(0)=(ExpectedType = class'SeqVar_Int', LinkDesc = "Int", PropertyName = value)
-    VariableLinks(1)=(ExpectedType = class'SeqVar_String', LinkDesc = "String", bWriteable = TRUE, PropertyName = result)
+    VariableLinks(0)=(ExpectedType = class'SeqVar_Int', LinkDesc = "Int", PropertyName = Value)
+    VariableLinks(1)=(ExpectedType = class'SeqVar_String', LinkDesc = "String", bWriteable = TRUE, PropertyName = Result)
 }
